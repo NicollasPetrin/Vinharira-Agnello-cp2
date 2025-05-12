@@ -36,4 +36,38 @@ function cadastrarVinho() {
       alert(`Estoque baixo para: ${nome}`);
     }
   }
+  // Variáveis de controle do processo de cadastro
+  let continuar = true;
+  let totalCadastros = 0;
+  let totalEstoqueBaixo = 0;
+  let safraMaisAntiga = null;
+  let nomeMaisAntigo = '';
+
+  // Loop principal para permitir múltiplos cadastros
+  while (continuar) {
+    const nome = prompt("Nome do vinho:");
+    const safra = validarEntrada("Ano da safra:", "numero");
+    const quantidade = validarEntrada("Quantidade em estoque:", "numero");
+
+    const classificacao = classificarVinho(safra);
+    const alertaEstoque = estoqueBaixo(quantidade);
+
+    exibirDados(nome, safra, quantidade, classificacao, alertaEstoque);
+
+    totalCadastros++;
+
+    if (alertaEstoque) {
+      totalEstoqueBaixo++;
+    }
+
+    // Verifica se a safra atual é mais antiga que a anterior
+    if (safraMaisAntiga === null || safra < safraMaisAntiga) {
+      safraMaisAntiga = safra;
+      nomeMaisAntigo = nome;
+    }
+
+    // Pergunta se o usuário deseja cadastrar outro vinho
+    continuar = prompt("Deseja cadastrar outro vinho? (s/n)").toLowerCase() === 's';
+  }
+  
 }
