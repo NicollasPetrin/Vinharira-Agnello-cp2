@@ -8,7 +8,7 @@ Descriçao do Projeto: Um site desenvolvido com um sistema de cadastro e uma org
 
 Link GitHub: [https://github.com/NicollasPetrin/Vinharira-Agnello-cp2]
 
-Link GitHub pages: []
+Link GitHub pages: [https://nicollaspetrin.github.io/Vinharira-Agnello-cp2/]
 
 Fonte utilizada: Georgia, serif
 
