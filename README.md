@@ -6,9 +6,9 @@ Integrantes: Marco Antonio Junqueira de Albuquerque,
 
 Descriçao do Projeto: Um site desenvolvido com um sistema de cadastro e uma organizaçao pro gerenciamento de estoque para o dono da vinicula, cadastre seu vinho de uma forma mais rápida e pratica apenas clicando em "Cadastrar Vinho" após isso veja as informações no console da página!!!
 
-Link GitHub: [https://github.com/NicollasPetrin/VinhariaAgnelo]
+Link GitHub: [https://github.com/NicollasPetrin/Vinharira-Agnello-cp2]
 
-Link GitHub pages: [https://nicollaspetrin.github.io/VinhariaAgnelo/]
+Link GitHub pages: []
 
 Fonte utilizada: Georgia, serif
 
